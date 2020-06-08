@@ -10,6 +10,7 @@ import {
 import Login from './pages/Login'
 import ListBook from './pages/ListBook'
 import ListData from './pages/ListData'
+import Users from './pages/Users'
 
 class App extends Component{
   render(){
@@ -20,6 +21,7 @@ class App extends Component{
             <Route path='/' exact component={Login} />
             <Route path='/list-book'  component={ListBook} />
             <Route path='/list-data'  component={ListData} />
+            <Route path='/users'  component={Users} />
           </Switch>
         </BrowserRouter>
       </>
